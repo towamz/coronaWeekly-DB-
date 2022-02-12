@@ -1,6 +1,7 @@
+Option Compare Database
+
 Sub transformatData()
     Dim rs1 As Recordset
-    Dim rs2 As Recordset
     Dim i As Long
     Dim SQL As String
     
@@ -25,7 +26,6 @@ Sub transformatData()
         End Select
     Next
     
-    Set rs2 = Nothing
     Set rs1 = Nothing
 
 End Sub
